@@ -25,6 +25,7 @@ Logger.info(s"Uncolored | ${Logger.colorText("Colored", Logger.Colors.YELLOW)}")
 Logger.info(s"Uncolored | ${Logger.colorText("Colored", Logger.Colors.RED)}")
 Logger.info(s"Uncolored | ${Logger.colorText("Colored", Logger.Colors.GREEN)}")
 Logger.block(List("block", "text"))
+Logger.iterate(List("Hello", "World"))
 ```
 
 ![](https://raw.githubusercontent.com/nsjames/scala-logger/master/example.jpg)
